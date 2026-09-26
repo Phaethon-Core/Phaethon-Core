@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 280" width="100%" height="auto" style="background:#090B10; border-radius:14px; overflow:hidden;">
+<defs>
+
+      <filter id="hex-shadow" x="-30%" y="-30%" width="160%" height="160%">
+        <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.75"/>
+      </filter>
+      <radialGradient id="card-glow" cx="50%" cy="40%" r="65%">
+        <stop offset="0%" stop-color="#141B2D" stop-opacity="0.9"/>
+        <stop offset="60%" stop-color="#0B0E17" stop-opacity="0.98"/>
+        <stop offset="100%" stop-color="#06070B" stop-opacity="1"/>
+      </radialGradient>
+    
+
+      <linearGradient id="grad-gemini" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#6D28D9"/>
+        <stop offset="100%" stop-color="#3B0764"/>
+      </linearGradient>
+<symbol id="sym-gemini" viewBox="0 0 24 24"><ns0:path xmlns:ns0="http://www.w3.org/2000/svg" d="M11.04 19.32Q12 21.51 12 24q0-2.49.93-4.68.96-2.19 2.58-3.81t3.81-2.55Q21.51 12 24 12q-2.49 0-4.68-.93a12.3 12.3 0 0 1-3.81-2.58 12.3 12.3 0 0 1-2.58-3.81Q12 2.49 12 0q0 2.49-.96 4.68-.93 2.19-2.55 3.81a12.3 12.3 0 0 1-3.81 2.58Q2.49 12 0 12q2.49 0 4.68.96 2.19.93 3.81 2.55t2.55 3.81" /></symbol>
+
+      <linearGradient id="grad-claude" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#D97706"/>
+        <stop offset="100%" stop-color="#7C2D12"/>
+      </linearGradient>
+<symbol id="sym-claude" viewBox="0 0 24 24"><ns0:path xmlns:ns0="http://www.w3.org/2000/svg" d="M17.3041 3.541h-3.6718l6.696 16.918H24Zm-10.6082 0L0 20.459h3.7442l1.3693-3.5527h7.0052l1.3693 3.5528h3.7442L10.5363 3.5409Zm-.3712 10.2232 2.2914-5.9456 2.2914 5.9456Z" /></symbol>
+
+      <linearGradient id="grad-pytorch" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#EA580C"/>
+        <stop offset="100%" stop-color="#7C2D12"/>
+      </linearGradient>
+<symbol id="sym-pytorch" viewBox="0 0 24 24"><ns0:path xmlns:ns0="http://www.w3.org/2000/svg" d="M12.005 0L4.952 7.053a9.865 9.865 0 000 14.022 9.866 9.866 0 0014.022 0c3.984-3.9 3.986-10.205.085-14.023l-1.744 1.743c2.904 2.905 2.904 7.634 0 10.538s-7.634 2.904-10.538 0-2.904-7.634 0-10.538l4.647-4.646.582-.665zm3.568 3.899a1.327 1.327 0 00-1.327 1.327 1.327 1.327 0 001.327 1.328A1.327 1.327 0 0016.9 5.226 1.327 1.327 0 0015.573 3.9z" /></symbol>
+
+      <linearGradient id="grad-sdxl" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#9333EA"/>
+        <stop offset="100%" stop-color="#581C87"/>
+      </linearGradient>
+<symbol id="sym-sdxl" viewBox="0 0 24 24"><ns0:path xmlns:ns0="http://www.w3.org/2000/svg" d="M7.223 21c4.252 0 7.018-2.22 7.018-5.56 0-2.59-1.682-4.236-4.69-4.918l-1.93-.571c-1.694-.375-2.683-.825-2.45-1.975.194-.957.773-1.497 2.122-1.497 4.285 0 5.873 1.497 5.873 1.497v-3.6S11.62 3 7.293 3C3.213 3 1 5.07 1 8.273c0 2.59 1.534 4.097 4.645 4.812l.334.083c.473.144 1.112.335 1.916.572 1.59.375 1.999.773 1.999 1.966 0 1.09-1.15 1.71-2.67 1.71C2.841 17.416 1 15.231 1 15.231v3.989S2.152 21 7.223 21z" /><ns0:path xmlns:ns0="http://www.w3.org/2000/svg" d="M20.374 20.73c1.505 0 2.626-1.073 2.626-2.526 0-1.484-1.089-2.526-2.626-2.526-1.505 0-2.594 1.042-2.594 2.526 0 1.484 1.089 2.526 2.594 2.526z" /></symbol>
+
+      <linearGradient id="grad-comfyui" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#3B82F6"/>
+        <stop offset="100%" stop-color="#1E3A8A"/>
+      </linearGradient>
+<symbol id="sym-comfyui" viewBox="0 0 24 24"><ns0:path xmlns:ns0="http://www.w3.org/2000/svg" d="M5.485 23.76c-.568 0-1.026-.207-1.325-.598-.307-.402-.387-.964-.22-1.54l.672-2.315a.605.605 0 00-.1-.536.622.622 0 00-.494-.243H2.085c-.568 0-1.026-.207-1.325-.598-.307-.403-.387-.964-.22-1.54l2.31-7.917.255-.87c.343-1.18 1.592-2.14 2.786-2.14h2.313c.276 0 .519-.18.595-.442l.764-2.633C9.906 1.208 11.155.249 12.35.249l4.945-.008h3.62c.568 0 1.027.206 1.325.597.307.402.387.964.22 1.54l-1.035 3.566c-.343 1.178-1.593 2.137-2.787 2.137l-4.956.01H11.37a.618.618 0 00-.594.441l-1.928 6.604a.605.605 0 00.1.537c.118.153.3.243.495.243l3.275-.006h3.61c.568 0 1.026.206 1.325.598.307.402.387.964.22 1.54l-1.036 3.565c-.342 1.179-1.592 2.138-2.786 2.138l-4.957.01h-3.61z" /></symbol>
+
+      <linearGradient id="grad-opencv" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#4338CA"/>
+        <stop offset="100%" stop-color="#312E81"/>
+      </linearGradient>
+<symbol id="sym-opencv" viewBox="0 0 24 24"><ns0:path xmlns:ns0="http://www.w3.org/2000/svg" d="M11.8992.8525C8.735.8525 6.17 3.4175 6.17 6.5817c0 2.102 1.1321 3.9398 2.8198 4.9366l1.6412-2.7849c.0411-.0699.0176-.1593-.0495-.2048-.6233-.4227-1.0328-1.137-1.0328-1.947 0-1.298 1.0524-2.3504 2.3505-2.3504 1.2981 0 2.3505 1.0524 2.3505 2.3505 0 .8098-.4095 1.5242-1.0328 1.947-.0671.0454-.0907.1348-.0495.2047l1.6414 2.785c1.6878-.9969 2.8199-2.8346 2.8199-4.9367 0-3.1642-2.5653-5.7292-5.7295-5.7292zm-6.17 10.8366C2.565 11.6891 0 14.2541 0 17.4183c0 3.1642 2.565 5.7292 5.7292 5.7292 3.1798 0 5.8074-2.6995 5.7275-5.8762H8.2313c-.0847 0-.1513.0717-.1519.1564-.0082 1.266-1.0644 2.3411-2.3502 2.3411-1.2981 0-2.3505-1.0524-2.3505-2.3505 0-1.2982 1.0524-2.3505 2.3505-2.3505.34 0 .663.0724.9547.2022.0713.0318.1566.0077.1962-.0595l1.6464-2.7935c-.8273-.4636-1.7815-.7279-2.7973-.7279zm15.4424.7614l-1.6366 2.7878c-.041.07-.0172.1594.05.2048.624.4217 1.0348 1.1354 1.0363 1.9452.0022 1.298-1.0483 2.352-2.3465 2.3542-1.298.0023-2.3523-1.0482-2.3545-2.3462-.0015-.8098.4068-1.5248 1.0294-1.9486.067-.0457.0905-.1353.0492-.2051l-1.6464-2.7818c-1.6859.9998-2.8146 2.8394-2.811 4.9415.0056 3.1641 2.575 5.7248 5.7393 5.7192 3.1641-.0054 5.7246-2.575 5.7192-5.7392-.0037-2.1022-1.139-3.938-2.8284-4.9318z" /></symbol>
+</defs>
+<rect width="360" height="280" fill="url(#card-glow)" rx="14" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+<g opacity="0.18">
+<circle cx="180.0" cy="158" r="125" fill="none" stroke="#C084FC" stroke-width="1" stroke-dasharray="4 6"/>
+<circle cx="180.0" cy="158" r="85" fill="none" stroke="#C084FC" stroke-width="0.75"/>
+<circle cx="180.0" cy="158" r="45" fill="none" stroke="#FFFFFF" stroke-width="0.75" stroke-dasharray="2 4"/>
+<line x1="50.0" y1="158" x2="310.0" y2="158" stroke="#C084FC" stroke-width="0.6" stroke-dasharray="3 5"/>
+<line x1="180.0" y1="58" x2="180.0" y2="258" stroke="#C084FC" stroke-width="0.6" stroke-dasharray="3 5"/>
+<circle cx="25" cy="25" r="2" fill="#C084FC" opacity="0.6"/>
+<circle cx="25" cy="25" r="5" fill="none" stroke="#C084FC" stroke-width="0.5" opacity="0.3"/>
+<circle cx="335" cy="25" r="2" fill="#C084FC" opacity="0.6"/>
+<circle cx="335" cy="25" r="5" fill="none" stroke="#C084FC" stroke-width="0.5" opacity="0.3"/>
+<circle cx="25" cy="255" r="2" fill="#C084FC" opacity="0.6"/>
+<circle cx="25" cy="255" r="5" fill="none" stroke="#C084FC" stroke-width="0.5" opacity="0.3"/>
+<circle cx="335" cy="255" r="2" fill="#C084FC" opacity="0.6"/>
+<circle cx="335" cy="255" r="5" fill="none" stroke="#C084FC" stroke-width="0.5" opacity="0.3"/>
+</g>
+
+    <g text-anchor="middle">
+      <rect x="85.0" y="18" width="190" height="22" rx="11" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+      <circle cx="100.0" cy="29" r="3" fill="#C084FC"/>
+      <text x="184.0" y="33" fill="#E2E8F0" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" letter-spacing="1.5">AI &amp; GENERATIVE SYSTEMS</text>
+    </g>
+    
+
+            <g filter="url(#hex-shadow)">
+              <!-- Outer glowing edge -->
+              <polygon points="211.5,158.0 195.8,185.3 164.2,185.3 148.5,158.0 164.2,130.7 195.8,130.7" fill="url(#grad-gemini)" stroke="#C084FC" stroke-width="1.8" stroke-opacity="0.9"/>
+              <!-- Inner glossy highlight -->
+              <polygon points="209.0,158.0 194.5,183.1 165.5,183.1 151.0,158.0 165.5,132.9 194.5,132.9" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+              
+              <!-- Icon -->
+              <use href="#sym-gemini" x="167.0" y="139" width="26" height="26"/>
+              
+              <!-- Name Label -->
+              <text x="180.0" y="176" text-anchor="middle" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" letter-spacing="0.3">Gemini</text>
+            </g>
+            
+
+            <g filter="url(#hex-shadow)">
+              <!-- Outer glowing edge -->
+              <polygon points="211.5,99.1 195.8,126.4 164.2,126.4 148.5,99.1 164.2,71.8 195.8,71.8" fill="url(#grad-claude)" stroke="#F59E0B" stroke-width="1.8" stroke-opacity="0.9"/>
+              <!-- Inner glossy highlight -->
+              <polygon points="209.0,99.1 194.5,124.2 165.5,124.2 151.0,99.1 165.5,74.0 194.5,74.0" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+              
+              <!-- Icon -->
+              <use href="#sym-claude" x="167.0" y="80.11027254265818" width="26" height="26"/>
+              
+              <!-- Name Label -->
+              <text x="180.0" y="117.11027254265818" text-anchor="middle" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" letter-spacing="0.3">Claude</text>
+            </g>
+            
+
+            <g filter="url(#hex-shadow)">
+              <!-- Outer glowing edge -->
+              <polygon points="262.5,128.6 246.8,155.8 215.2,155.8 199.5,128.6 215.2,101.3 246.8,101.3" fill="url(#grad-pytorch)" stroke="#FB923C" stroke-width="1.8" stroke-opacity="0.9"/>
+              <!-- Inner glossy highlight -->
+              <polygon points="260.0,128.6 245.5,153.7 216.5,153.7 202.0,128.6 216.5,103.4 245.5,103.4" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+              
+              <!-- Icon -->
+              <use href="#sym-pytorch" x="218.0" y="109.55513627132908" width="26" height="26"/>
+              
+              <!-- Name Label -->
+              <text x="231.0" y="146.55513627132908" text-anchor="middle" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" letter-spacing="0.3">PyTorch</text>
+            </g>
+            
+
+            <g filter="url(#hex-shadow)">
+              <!-- Outer glowing edge -->
+              <polygon points="262.5,187.4 246.8,214.7 215.2,214.7 199.5,187.4 215.2,160.2 246.8,160.2" fill="url(#grad-sdxl)" stroke="#C084FC" stroke-width="1.8" stroke-opacity="0.9"/>
+              <!-- Inner glossy highlight -->
+              <polygon points="260.0,187.4 245.5,212.6 216.5,212.6 202.0,187.4 216.5,162.3 245.5,162.3" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+              
+              <!-- Icon -->
+              <use href="#sym-sdxl" x="218.0" y="168.44486372867092" width="26" height="26"/>
+              
+              <!-- Name Label -->
+              <text x="231.0" y="205.44486372867092" text-anchor="middle" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" letter-spacing="0.3">SDXL</text>
+            </g>
+            
+
+            <g filter="url(#hex-shadow)">
+              <!-- Outer glowing edge -->
+              <polygon points="211.5,216.9 195.8,244.2 164.2,244.2 148.5,216.9 164.2,189.6 195.8,189.6" fill="url(#grad-comfyui)" stroke="#60A5FA" stroke-width="1.8" stroke-opacity="0.9"/>
+              <!-- Inner glossy highlight -->
+              <polygon points="209.0,216.9 194.5,242.0 165.5,242.0 151.0,216.9 165.5,191.8 194.5,191.8" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+              
+              <!-- Icon -->
+              <use href="#sym-comfyui" x="167.0" y="197.88972745734182" width="26" height="26"/>
+              
+              <!-- Name Label -->
+              <text x="180.0" y="234.88972745734182" text-anchor="middle" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" letter-spacing="0.3">ComfyUI</text>
+            </g>
+            
+
+            <g opacity="0.35">
+              <polygon points="160.5,187.4 144.8,214.7 113.2,214.7 97.5,187.4 113.2,160.2 144.8,160.2" fill="rgba(255,255,255,0.012)" stroke="rgba(148, 163, 184, 0.45)" stroke-width="1.2" stroke-dasharray="3 3"/>
+              <!-- Blueprint crosshair and node -->
+              <circle cx="129.0" cy="187.44486372867092" r="2" fill="rgba(148, 163, 184, 0.7)"/>
+              <line x1="123.0" y1="187.44486372867092" x2="135.0" y2="187.44486372867092" stroke="rgba(148, 163, 184, 0.5)" stroke-width="0.8"/>
+              <line x1="129.0" y1="181.44486372867092" x2="129.0" y2="193.44486372867092" stroke="rgba(148, 163, 184, 0.5)" stroke-width="0.8"/>
+            </g>
+            
+
+            <g filter="url(#hex-shadow)">
+              <!-- Outer glowing edge -->
+              <polygon points="160.5,128.6 144.8,155.8 113.2,155.8 97.5,128.6 113.2,101.3 144.8,101.3" fill="url(#grad-opencv)" stroke="#818CF8" stroke-width="1.8" stroke-opacity="0.9"/>
+              <!-- Inner glossy highlight -->
+              <polygon points="158.0,128.6 143.5,153.7 114.5,153.7 100.0,128.6 114.5,103.4 143.5,103.4" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+              
+              <!-- Icon -->
+              <use href="#sym-opencv" x="116.0" y="109.55513627132908" width="26" height="26"/>
+              
+              <!-- Name Label -->
+              <text x="129.0" y="146.55513627132908" text-anchor="middle" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" letter-spacing="0.3">OpenCV</text>
+            </g>
+            
+</svg>
